@@ -37,6 +37,27 @@ a {
   font-weight: 800;
 }
 
+.btnVV{
+  color: white;
+  background-color: #A56c6C;
+  padding: .5rem 2rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.btnVV:hover{
+  color: #A56c6C;
+  background-color: white;
+  border-radius: 1px solid #A56c6c; 
+
+}
+
+.servicios{
+  text-decoration: none;
+}
+
 .supWhite{
   color: white;
 }
@@ -520,11 +541,3 @@ body::-webkit-scrollbar-thumb {
   border-radius: 1.5em;
 }
 
-
-.btn-vv {
-  --bs-btn-color: #c38888;
-  --bs-btn-font-weight: 700;
-  --bs-btn-hover-color: #c38888;
-  --bs-btn-hover-border-color: #c38888;
-  --bs-btn-active-color: #c38888;
-}

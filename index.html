@@ -25,24 +25,25 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active border-bottom mx-1" aria-current="page" href="#" target="_blank">Home</a>
+            <a class="nav-link active border-bottom mx-1" href="#inicio" >Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link border-bottom hover mx-1" href="#" target="_blank">Servicios</a>
+            <a class="nav-link border-bottom hover mx-1" href="#servicios">Servicios</a>
           </li>
-          <li class="nav-item border-bottom mx-1">
+          <!-- <li class="nav-item border-bottom mx-1">
             <a class="nav-link" href="#">Blog</a>
           </li>
           <li class="nav-item border-bottom mx-1">
             <a class="nav-link" href="#">YouTube</a>
-          </li>
+          </li> -->
           <li class="nav-item border-bottom mx-1">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <div id="inicio"></div>
 
   <div id="carouselExampleControls" class="carousel slide shadow" data-bs-ride="carousel">
     <div class="carousel-indicators">
@@ -89,7 +90,7 @@
       </div>
 
       <div class="col-lg-6 d-flex flex-column align-self-center">
-        <h2 class="titleDesktop">
+        <h2 class="titleDesktop mt-3">
           ¡Hola! Que lindo que estés por acá...
         </h2>
         <p class="mt-4 paragraphDesktop">
@@ -99,7 +100,7 @@
         </p>
         <div class="text-center">
 
-          <a href="/about.html" style="text-decoration: none;" class="btn btn-vv mt-3">
+          <a href="/about.html" style="text-decoration: none;" class="btn btnVV mt-3">
             Seguime que te cuento
           </a>
 
@@ -110,7 +111,7 @@
       </div>
     </section>
 
-    <section class="row">
+    <section class="row" id='servicios'>
       <div class="p-5 sectionTwo">
         <p class="paragraphDesktopWhite">
           Este espacio reabre sus puertas de una forma completamente diferente, porque como leí por ahí:
@@ -120,29 +121,34 @@
     </section>
 
     <section class="row my-5">
-      <div class="col-lg-4 text-center">
-        <img src="img/integral.jpg" alt="Iconografía que hace referencia a la inspiración" class="img-icono" />
-        <h2 class="mt-5 titleSectionThree">Asesoría integral</h2>
+
+      <a href="/asesoria.html" class="col-lg-4 text-center mt-4 servicios">
+        
+
+          <img src="img/integral.jpg" alt="Iconografía que hace referencia a la inspiración" class="img-icono" />
+    
+          <h2 class="mt-5 titleSectionThree">Asesoría integral</h2>
+        
         <p class="paragraphDesktop">
           Todas cambiamos ¡y yo estaría más que feliz de acompañarlas en sus procesos! 
         </p>
-      </div>
+      </a>
 
-      <div class="col-lg-4 text-center">
+      <a href="/estilo.html" class="col-lg-4 text-center mt-4 servicios">
         <img src="img/mama.jpg" alt="Iconografía que hace referencia a la validación" class="img-icono" />
         <h2 class="mt-5 titleSectionThree">Estilo mamá</h2>
         <p class="paragraphDesktop">
           Para todas aquellas que fueron mamás, no importa cuanto tiempo haya pasado...
         </p>
-      </div>
+      </a>
 
-      <div class="col-lg-4 text-center">
+      <a href="/express.html" class="col-lg-4 text-center mt-4 servicios">
         <img src="img/express.jpg" alt="Iconografía que hace referencia a la fomentación" class="img-icono" />
         <h2 class="mt-5 titleIcons titleSectionThree">Asesoría Express</h2>
         <p class="paragraphDesktop">
           No todos los colores nos favorecen, el tema es un poco más complicado que esto...
         </p>
-      </div>
+      </a>
     </section>
 
     <section class="row my-5">
@@ -159,7 +165,7 @@
       </div>
 
       <div class="col-xl-6 d-flex flex-column align-self-center">
-        <h3 class="titleDesktopSmall">
+        <h3 class="titleDesktopSmall mt-4">
           ¿Fue fácil? ¿Será ésta mi mejor versión? 
         </h3>
         <p class="paragraphDesktopLarge my-4">
@@ -226,7 +232,7 @@
           <li class="paragraphDesktop">Búsquedas laborales</li>
           <li class="paragraphDesktop">Nuevo puesto de trabajo</li>
           <li class="paragraphDesktop">Facultad + trabajo </li>
-          <li class="paragraphDesktop">Trabajo independiente</li>
+          <li class="paragraphDesktop" id="contacto">Trabajo independiente</li>
           <li class="paragraphDesktop">Embarazo</li>
         </ul>
 
@@ -234,12 +240,12 @@
       </div>
     </section>
 
-    <section>
+    <section >
       <!-- <h2 class="titleDesktop text-center">Lorem, ipsum doloiendis.</h2>
       <p class="text-center">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam optio a unde dolores obcaecati sunt fugit consequuntur us.
       </p> -->
-      <div class="p-4 sectionNine mt-5">
+      <div class="p-4 sectionNine mt-5" >
         <h3 class="titleDesktopSmallBrown text-center">
           ¡Escribime para saber más!
         </h3>
@@ -260,7 +266,7 @@
             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
             <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btnVV">Enviar</button>
 
           <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
         </form>
